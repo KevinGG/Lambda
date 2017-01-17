@@ -14,7 +14,7 @@ package rp.lambda.functional;
  * Assume you want to filter a List<T> <i>list</i> based on your self-defined Criteria<T> instance <i>criteria</i>, you could do this:
  * <pre>
  * {@code
- * list.stream().filter(entry -> criteria.evaluate(entry)).collect(Collectors.list());
+ * list.stream().filter(entry -> criteria.evaluate(entry)).collect(Collectors.toList());
  * }
  * </pre>
  * 
